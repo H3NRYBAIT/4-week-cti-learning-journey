@@ -1,0 +1,76 @@
+# Week 1 IOCs — fatturapagamento.click Investigation
+# Date: August 1, 2026
+# Type: Phishing — Aruba impersonation
+# Author: Abdullah Hassan
+
+# -------------------------
+# IPs
+# -------------------------
+185.95.156.79
+
+# -------------------------
+# DOMAINS
+# -------------------------
+
+# Active phishing domain
+fatturapagamento.click
+www.fatturapagamento.click
+admin.fatturapagamento.click
+mail.fatturapagamento.click
+webmail.fatturapagamento.click
+
+# Earlier campaign domain
+payment-invoice.click
+www.payment-invoice.click
+admin.payment-invoice.click
+mail.payment-invoice.click
+webmail.payment-invoice.click
+
+# Email infrastructure domain
+backup-exodus.com
+www.backup-exodus.com
+admin.backup-exodus.com
+mail.backup-exodus.com
+webmail.backup-exodus.com
+
+# Third campaign domain
+membership-premium.info
+www.membership-premium.info
+admin.membership-premium.info
+mail.membership-premium.info
+webmail.membership-premium.info
+
+# -------------------------
+# URLS
+# -------------------------
+https://fatturapagamento.click/loading/
+https://fatturapagamento.click/.submit/
+https://185.95.156.79:10000/
+
+# -------------------------
+# ASNs
+# -------------------------
+AS209101  # IP Vendetta Inc.
+AS210644  # AEZA International LTD
+AS211936  # rackdog llc
+
+# -------------------------
+# FINGERPRINTS
+# -------------------------
+# ETag (Shodan pivot)
+13255-656ecbe3ae000
+
+# SMTP Banner
+220 www.backup-exodus.com ESMTP Postfix (Debian/GNU)
+
+# Virtualmin admin panel
+185.95.156.79:10000
+
+# -------------------------
+# CERTIFICATES
+# -------------------------
+# crt.sh IDs
+28278042838
+28278034288
+28277991176
+28277993498
