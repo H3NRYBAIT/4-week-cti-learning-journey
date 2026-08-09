@@ -1,0 +1,59 @@
+# Week 2 IOCs — Lumma Stealer C2 Investigation
+# Date: August 8, 2026
+# Family: LummaStealer
+# Author: Abdullah Hassan
+
+# -------------------------
+# IPs
+# -------------------------
+64.89.161.173
+
+# -------------------------
+# C2 DOMAINS
+# -------------------------
+matchny.cyou
+bizsmmit.cyou
+trendion.cyou
+trenadne.cyou
+creaflow.cyou
+smaridge.cyou
+starzone.cyou
+visioint.cyou
+businway.cyou
+genusim.cyou
+konterlink.hippamsas.com
+
+# -------------------------
+# MALWARE HASHES (SHA256)
+# -------------------------
+e08c0890b11d91b7ee58de25cc190e1fdf760d76b6d0821aa2d1f442b43e719a
+0336bd5693a24cfe3fdc47424340b373e6ec13b0f36ea1afd4418cafe04fccde
+033cfdd3dd7e2bebbc1ed5c838676d024628a92f7dac762eb708ba0c8b7b3e35
+038bdd94f0ca54f607e40c2eb72f9c9225cc09c8d20bf927f190bf5fdc46712d
+
+# -------------------------
+# IMPHASH
+# -------------------------
+1aae8bf580c846f39c71c05898e57e88
+
+# -------------------------
+# ASN
+# -------------------------
+AS205759  # Ghosty Networks LLC
+
+# -------------------------
+# FAKE CERTIFICATE
+# -------------------------
+# Issuer: vewadis.on (non-existent entity)
+# Type: Untrusted root — T1553.002
+
+# -------------------------
+# DELIVERY FILENAMES
+# -------------------------
+SETUP.zip
+The Odyssey (2026) 1080p WEBRip.zip
+The Odyssey 2160pHD (2026) ENGSubs.zip
+House of the Dragon S03E07 1080p.zip
+Amazon Best Books of the Month - July 2026
+ProtonVPN_v5.1.5_Premium.exe
+clean_virus.exe
