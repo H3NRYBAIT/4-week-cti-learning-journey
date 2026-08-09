@@ -27,7 +27,7 @@ Every week ends with a full investigation write-up published on Medium and docum
 | Week | Focus Area | Days | Status | Case Study | Write-up |
 |------|------------|------|--------|------------|----------|
 | **Week 1** | Infrastructure Intelligence | 1–7 | ✅ Complete | `fatturapagamento.click` | [📖 Read on Medium](https://medium.com/@H3NRYB41T/how-i-traced-a-fake-aruba-payment-portal-back-to-its-infrastructure-using-12-free-osint-tools-1dfe398bc7f5) |
-| **Week 2** | Malware Intelligence | 8–14 | 🔄 In Progress | Coming Soon | Coming Soon |
+| **Week 2** | Malware Intelligence | 8–14 | ✅ Complete | `Lumma Stealer C2 Network` | [📖 Read on Medium](https://medium.com/@H3NRYB41T/the-fake-odyssey-2026-download-was-malware-and-it-led-me-to-a-live-lumma-stealer-c2-network-0d614664ef12) |
 | **Week 3** | Threat Actor Intelligence | 15–21 | ⏳ Pending | — | — |
 | **Week 4** | Intelligence Production | 22–30 | ⏳ Pending | — | — |
 
@@ -58,14 +58,14 @@ Every week ends with a full investigation write-up published on Medium and docum
 <summary><b>📁 Week 2 — Malware Intelligence</b> 🔄</summary>
 
 | Day | Topic | Status |
-|-----|-------|--------|
-| Day 8  | Malware Ecosystem | 🔄 |
-| Day 9  | Config Extraction | ⏳ |
-| Day 10 | Campaign Clustering | ⏳ |
-| Day 11 | Malware Timeline | ⏳ |
-| Day 12 | Infrastructure Reuse | ⏳ |
-| Day 13 | ATT&CK Profiling | ⏳ |
-| Day 14 | Weekly Investigation #2 | ⏳ |
+|-----|-----------|
+| Day 8  | Malware Ecosystem — Identified crackware delivery, MaaS structure, credential theft goals |
+| Day 9  | Config Extraction — Extracted C2 domains from VirusTotal behavioral relationships |
+| Day 10 | Campaign Clustering — Clustered 73 domains by registration date, registrar, IP, TLD |
+| Day 11 | Malware Timeline — Applied temporal analysis to domain registration dates |
+| Day 12 | Infrastructure Reuse — 64.89.161.173 appearing across 3 independent samples |
+| Day 13 | ATT&CK Profiling — Mapped 10 techniques from behavioral tags and sandbox observations |
+| Day 14 | Weekly Investigation #2 — Lumma Stealer C2 Network |
 
 [→ View Week 2 Files](./week-2/)
 
