@@ -52,20 +52,20 @@ Every week ends with a full investigation write-up published on Medium and docum
 
 [→ View Week 1 Files](./week-1/)
 
-</details>
-
 <details>
-<summary><b>📁 Week 2 — Malware Intelligence</b> 🔄</summary>
+<summary><b>📁 Week 2 — Malware Intelligence</b> ✅</summary>
 
 | Day | Topic | Status |
-|-----|-----------|
-| Day 8  | Malware Ecosystem — Identified crackware delivery, MaaS structure, credential theft goals |
-| Day 9  | Config Extraction — Extracted C2 domains from VirusTotal behavioral relationships |
-| Day 10 | Campaign Clustering — Clustered 73 domains by registration date, registrar, IP, TLD |
-| Day 11 | Malware Timeline — Applied temporal analysis to domain registration dates |
-| Day 12 | Infrastructure Reuse — 64.89.161.173 appearing across 3 independent samples |
-| Day 13 | ATT&CK Profiling — Mapped 10 techniques from behavioral tags and sandbox observations |
-| Day 14 | Weekly Investigation #2 — Lumma Stealer C2 Network |
+|-----|-------|--------|
+| Day 8  | Malware Ecosystem | ✅ |
+| Day 9  | Config Extraction | ✅ |
+| Day 10 | Campaign Clustering | ✅ |
+| Day 11 | Malware Timeline | ✅ |
+| Day 12 | Infrastructure Reuse | ✅ |
+| Day 13 | ATT&CK Profiling | ✅ |
+| Day 14 | Weekly Investigation #2 — Lumma Stealer C2 Network | ✅ |
+
+**What I built:** Traced three unrelated malware samples to a single C2 IP hosting 73 rotating domains and 111 confirmed samples — delivered inside fake movie torrents, fake VPN software, and fake antivirus tools.
 
 [→ View Week 2 Files](./week-2/)
 
