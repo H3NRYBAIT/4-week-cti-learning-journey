@@ -1,0 +1,96 @@
+# Week 3 IOCs — SideWinder APT Infrastructure
+# Date: August 2026
+# Actor: SideWinder APT (G0121) — Rattlesnake / T-APT-04 / RAZOR TIGER
+# Author: Abdullah Hassan
+# Source: Kaspersky / Zscaler / Group-IB / BlackBerry (2022-2024)
+# Note: All infrastructure was active 2022-2024 and has since been taken down or parked
+
+# -------------------------
+# IP ADDRESSES
+# -------------------------
+146.190.235.137   # WarHawk C2 — DigitalOcean AS14061 — community score -56
+2.56.245.21       # Phishing server — ITP-Solutions GmbH Germany AS213250
+3.239.29.103      # Shared C2 — AWS — fia-gov.org + customs-lk.org
+99.83.154.118     # Rotated hosting — AWS
+199.59.243.223    # Rotated hosting — Cloudflare
+72.52.179.175     # Rotated hosting — Cloudflare
+54.83.91.25       # AWS campaign infrastructure
+13.41.77.98       # AWS London campaign infrastructure
+
+# -------------------------
+# DOMAINS
+# -------------------------
+
+# Pakistan government impersonations
+fia-gov[.]org              # Fake Pakistan Federal Investigation Agency
+finance.pakgov[.]net       # Fake Ministry of Finance
+nadra.pakgov[.]net         # Fake NADRA
+nadra-pk[.]org             # Fake NADRA (alternate)
+csd.pakgov[.]net           # Fake Canteen Stores Department
+covid.pakgov[.]net         # Fake COVID portal
+ncoc.pakgov[.]net          # Fake National Command Operation Centre
+hajj.pakgov[.]net          # Fake Hajj services
+mofa-pk[.]org              # Fake Ministry of Foreign Affairs
+sngpl.org[.]pk             # Fake Sui Northern Gas Pipelines
+nationalhelpdesk[.]pk      # Fake national helpdesk
+depo-govpk[.]com           # Fake gov.pk
+pncert[.]info              # Fake Pakistan CERT
+defencearmy[.]pro          # Fake defence portal
+sindhpolice-govpk[.]com    # Fake Sindh Police
+ntc-pk[.]org               # Fake NTC
+ptcl-gov[.]org             # Fake PTCL
+paf-govt[.]net             # Fake Pakistan Air Force
+pak-news[.]info            # Fake Pakistani news media
+
+# Sri Lanka impersonations
+customs-lk[.]org           # Fake Sri Lanka Customs (shared IP with fia-gov.org)
+
+# -------------------------
+# FILE HASHES (MD5)
+# -------------------------
+d510808a743e6afc705fc648ca7f896a   # ISO lure — Advisory No. 32
+63d6d8213d9cc070b2a3dfd3c5866564   # ISO lure — Advisory No. 33
+8f9cf5c828cb02c83f8df52ccae03e2a   # WarHawk v1
+5cff6896e0505e8d6d98bff35d10c43a   # WarHawk v1.1
+ec33c5e1773b510e323bea8f70dcddb0   # Cobalt Strike loader
+d0acccab52778b77c96346194e38b244   # Cobalt Strike beacon — OneDrive.exe
+40f86b56ab79e94893e4c6f1a0a099a1   # Cobalt Strike beacon — DDRA.exe
+e9726519487ba9e4e5589a8a5ec2f933   # Malicious Office document
+0216ffc6fb679bdf4ea6ee7051213c1e   # Backdoor Loader
+433480f7d8642076a8b3793948da5efe   # Backdoor Loader variant
+
+# -------------------------
+# MASQUERADE FILENAMES
+# -------------------------
+# DLL Sideloading legitimate app names (changed constantly)
+propsys.dll
+vsstrace.dll
+JetCfg.dll
+policymanager.dll
+winmm.dll
+xmllite.dll
+UxTheme.dll
+
+# WarHawk masquerades
+ASUS Update Setup     # 55/70 VT detections
+RtkNGui.exe           # Realtek HD Audio Manager — 51/70 VT detections
+
+# -------------------------
+# CVE
+# -------------------------
+CVE-2017-11882   # Microsoft Office memory corruption — still exploited in 2024
+
+# -------------------------
+# INFRASTRUCTURE NOTES
+# -------------------------
+# Hosting providers used May 2022 - March 2023:
+# LeaseWeb → DigitalOcean → Amazon
+# Confluence Networks (parallel track)
+# HZ Hosting → Hetzner → parked
+# Liteserver Holding
+# CloudLayer8 → GhostNet → Unified Layers
+# Hostinger · M247 · EDIS GmbH
+
+# Shared IP confirmation:
+# 3.239.29.103 resolved to BOTH fia-gov.org AND customs-lk.org
+# Aug-Sep 2022 — confirms same operator ran Pakistan + Sri Lanka campaigns simultaneously
