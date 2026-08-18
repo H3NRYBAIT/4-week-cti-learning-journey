@@ -1,10 +1,10 @@
 <div align="center">
 
-#  30-Day Cyber Threat Intelligence Program
+# 30-Day Cyber Threat Intelligence Program
 
 *A self-directed journey from zero to threat analyst — one investigation at a time.*
 
-[![Status](https://img.shields.io/badge/Status-Week%201%20Complete-brightgreen?style=for-the-badge)](.)
+[![Status](https://img.shields.io/badge/Status-Week%203%20Complete-brightgreen?style=for-the-badge)](.)
 [![Tools](https://img.shields.io/badge/Tools-13%20Free%20OSINT-blue?style=for-the-badge)](.)
 [![Method](https://img.shields.io/badge/Method-Passive%20OSINT%20Only-orange?style=for-the-badge)](.)
 
@@ -12,7 +12,7 @@
 
 ---
 
-##  What Is This?
+## What Is This?
 
 This repository documents my **30-day self-study Cyber Threat Intelligence (CTI) program** — a structured curriculum where I investigate real, live threat infrastructure every week using only free, passive OSINT tools.
 
@@ -22,21 +22,21 @@ Every week ends with a full investigation write-up published on Medium and docum
 
 ---
 
-##  Progress
+## Progress
 
 | Week | Focus Area | Days | Status | Case Study | Write-up |
 |------|------------|------|--------|------------|----------|
-| **Week 1** | Infrastructure Intelligence | 1–7 | ✅ Complete | `fatturapagamento.click` | [📖 Read on Medium](https://medium.com/@H3NRYB41T/how-i-traced-a-fake-aruba-payment-portal-back-to-its-infrastructure-using-12-free-osint-tools-1dfe398bc7f5) |
-| **Week 2** | Malware Intelligence | 8–14 | ✅ Complete | `Lumma Stealer C2 Network` | [📖 Read on Medium](https://medium.com/@H3NRYB41T/the-fake-odyssey-2026-download-was-malware-and-it-led-me-to-a-live-lumma-stealer-c2-network-0d614664ef12) |
-| **Week 3** | Threat Actor Intelligence | 15–21 | ⏳ Pending | — | — |
+| **Week 1** | Infrastructure Intelligence | 1–7 | ✅ Complete | fatturapagamento.click | [Read on Medium](https://medium.com/@H3NRYB41T/how-i-traced-a-fake-aruba-payment-portal-back-to-its-infrastructure-using-12-free-osint-tools-1dfe398bc7f5) |
+| **Week 2** | Malware Intelligence | 8–14 | ✅ Complete | Lumma Stealer C2 Network | [Read on Medium](https://medium.com/@H3NRYB41T/the-fake-odyssey-2026-download-was-malware-and-it-led-me-to-a-live-lumma-stealer-c2-network-0d614664ef12) |
+| **Week 3** | Threat Actor Intelligence | 15–21 | ✅ Complete | SideWinder APT | [Read on Medium](https://medium.com/@H3NRYB41T/sidewinder-apt-faked-pakistans-government-websites-for-12-years-and-replaced-detected-malware-in-ea16137488eb) |
 | **Week 4** | Intelligence Production | 22–30 | ⏳ Pending | — | — |
 
 ---
 
-##  Full 30-Day Curriculum
+## Full 30-Day Curriculum
 
 <details>
-<summary><b>📁 Week 1 — Infrastructure Intelligence</b> ✅</summary>
+<summary><b>Week 1 — Infrastructure Intelligence</b> ✅</summary>
 
 | Day | Topic | Status |
 |-----|-------|--------|
@@ -50,10 +50,12 @@ Every week ends with a full investigation write-up published on Medium and docum
 
 **What I built:** Mapped a live 4-domain phishing campaign from a single URL to full infrastructure exposure — including the attacker's open admin panel.
 
-[→ View Week 1 Files](./week-1/)
+[View Week 1 Files](./week-1/)
+
+</details>
 
 <details>
-<summary><b>📁 Week 2 — Malware Intelligence</b> ✅</summary>
+<summary><b>Week 2 — Malware Intelligence</b> ✅</summary>
 
 | Day | Topic | Status |
 |-----|-------|--------|
@@ -67,29 +69,31 @@ Every week ends with a full investigation write-up published on Medium and docum
 
 **What I built:** Traced three unrelated malware samples to a single C2 IP hosting 73 rotating domains and 111 confirmed samples — delivered inside fake movie torrents, fake VPN software, and fake antivirus tools.
 
-[→ View Week 2 Files](./week-2/)
+[View Week 2 Files](./week-2/)
 
 </details>
 
 <details>
-<summary><b>📁 Week 3 — Threat Actor Intel</b> ⏳</summary>
+<summary><b>Week 3 — Threat Actor Intelligence</b> ✅</summary>
 
 | Day | Topic | Status |
 |-----|-------|--------|
-| Day 15 | Actor Selection | ⏳ |
-| Day 16 | Victimology | ⏳ |
-| Day 17 | Infrastructure History | ⏳ |
-| Day 18 | Operational Behavior | ⏳ |
-| Day 19 | Financial Ecosystem | ⏳ |
-| Day 20 | Attribution Assessment | ⏳ |
-| Day 21 | Weekly Investigation #3 | ⏳ |
+| Day 15 | Actor Selection | ✅ |
+| Day 16 | Victimology | ✅ |
+| Day 17 | Infrastructure History | ✅ |
+| Day 18 | Operational Behavior | ✅ |
+| Day 19 | Financial Ecosystem | ✅ |
+| Day 20 | Attribution Assessment | ✅ |
+| Day 21 | Weekly Investigation #3 — SideWinder APT | ✅ |
 
-[→ View Week 3 Files](./week-3/)
+**What I built:** Full threat actor profile of SideWinder APT — 12 years of Pakistani government impersonation, 22 ATT&CK techniques, 9 hosting providers, nuclear facility targeting, and under-5-hour malware replacement documented.
+
+[View Week 3 Files](./week-3/)
 
 </details>
 
 <details>
-<summary><b>📁 Week 4 — Intelligence Production</b> ⏳</summary>
+<summary><b>Week 4 — Intelligence Production</b> ⏳</summary>
 
 | Day | Topic | Status |
 |-----|-------|--------|
@@ -103,49 +107,69 @@ Every week ends with a full investigation write-up published on Medium and docum
 | Day 29 | Portfolio Review | ⏳ |
 | Day 30 | Advanced Tool Deep-Dives | ⏳ |
 
-[→ View Week 4 Files](./week-4/)
+[View Week 4 Files](./week-4/)
 
 </details>
 
 ---
 
-##  Tools Arsenal
+## Tools Arsenal
 
 > All tools are **100% free**. All investigations use **passive OSINT only** — no active exploitation, no unauthorized access.
 
 | Category | Tools |
 |----------|-------|
-|  Phishing Intel | PhishTank, urlscan.io |
-|  Malware & URL Analysis | VirusTotal, AlienVault OTX |
-|  Domain & DNS | WHOIS, crt.sh, MXToolbox |
-|  Internet Scanning | Shodan, Censys, FOFA |
-|  IP Reputation | AbuseIPDB, GreyNoise, Criminal IP |
+| Phishing Intel | PhishTank, urlscan.io |
+| Malware & URL Analysis | VirusTotal, AlienVault OTX, MalwareBazaar, Any.run |
+| Domain & DNS | WHOIS, crt.sh, MXToolbox |
+| Internet Scanning | Shodan, Censys, FOFA |
+| IP Reputation | AbuseIPDB, GreyNoise, Criminal IP |
+| Threat Actor Intel | MITRE ATT&CK, Kaspersky Securelist, Zscaler ThreatLabz, Group-IB |
 
 ---
 
-##  Week 1 Highlight
+## Investigation Highlights
 
-> *"One phishing URL. One IP. Four campaigns. Twenty domains. And an admin panel sitting wide open on the public internet."*
+**Week 1 — fatturapagamento.click**
+> One phishing URL. One IP. Four campaigns. Twenty domains. Admin panel wide open on port 10000.
 
-**fatturapagamento.click** — A live Aruba impersonation campaign targeting Italian-speaking users, discovered August 1st, 2026.
+- Single IP hosting 4 simultaneous phishing campaigns
+- 20 domains mapped from a single pivot
+- 0/60 email blacklists — clean reputation, ready to deliver
+- 10,000+ similar phishing pages found on urlscan.io
 
-**Key findings:**
-- 🔴 Single IP hosting **4 simultaneous phishing campaigns**
-- 🔴 **20 domains** mapped from a single pivot
-- 🔴 Attacker's **Virtualmin admin panel exposed** on port 10000
-- 🔴 Full email stack (SMTP/POP3/IMAP) via **backup-exodus.com**
-- 🔴 **0/60 email blacklists** — clean reputation, ready to deliver
-- 🔴 **10,000+ similar phishing pages** found on urlscan.io
-
-[ Full Write-up on Medium]([https://medium.com/@abdullahhassan](https://medium.com/@H3NRYB41T/how-i-traced-a-fake-aruba-payment-portal-back-to-its-infrastructure-using-12-free-osint-tools-1dfe398bc7f5?sharedUserId=H3NRYB41T)) · [📂 Case Study Files](./week-1/case-study-fatturapagamento.md) · [🔴 IOCs](./week-1/iocs.txt)
+[Read on Medium](https://medium.com/@H3NRYB41T/how-i-traced-a-fake-aruba-payment-portal-back-to-its-infrastructure-using-12-free-osint-tools-1dfe398bc7f5) · [Case Study](./week-1/case-study-fatturapagamento.md) · [IOCs](./week-1/iocs.txt)
 
 ---
 
-##  Follow Along
+**Week 2 — Lumma Stealer C2 Network**
+> A fake Odyssey 2026 torrent. Three samples. 73 domains. 111 malware samples. One IP.
 
-I publish a full investigation write-up on Medium at the end of every week.
+- Imphash pivot linked 464 samples across 3 malware families
+- 73 .cyou domains all registered via Dynadot in batch sessions
+- Delivered inside fake movie torrents, fake VPN software, fake antivirus tools
+- 10 ATT&CK techniques documented from behavioral analysis alone
+
+[Read on Medium](https://medium.com/@H3NRYB41T/the-fake-odyssey-2026-download-was-malware-and-it-led-me-to-a-live-lumma-stealer-c2-network-0d614664ef12) · [Case Study](./week-2/case-study-lumma-stealer.md) · [IOCs](./week-2/iocs.txt)
+
+---
+
+**Week 3 — SideWinder APT**
+> 12 years. Fake government websites. Nuclear facility lures. Malware replaced in under five hours.
+
+- Pakistan Standard Time check hard-coded into malware — only infected Pakistani systems
+- NEPRA website compromised — malware hosted on Pakistan's own power regulator server
+- 9 hosting providers across 10 months — rotated after every detection
+- 22 ATT&CK techniques documented across the full operation
+
+[Read on Medium](https://medium.com/@H3NRYB41T/sidewinder-apt-faked-pakistans-government-websites-for-12-years-and-replaced-detected-malware-in-ea16137488eb) · [Case Study](./week-3/case-study-sidewinder.md) · [IOCs](./week-3/iocs.txt)
+
+---
+
+## Follow Along
 
 [![Medium](https://img.shields.io/badge/Medium-Follow-black?style=for-the-badge&logo=medium)](https://medium.com/@H3NRYB41T)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdullah-hassan123)
 
 ---
 
